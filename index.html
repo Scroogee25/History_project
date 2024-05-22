@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scroll Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo">Криптография</a>
+        <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="home-page">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links" id="about-page">About</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#timeline" class="navbar__links" id="timeline-page">Timeline</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+        <div class="hero__container">
+          <h1 class="hero__heading">МЕТОДЫ ЗАЩИТЫ <span>ИНФОРМАЦИИ</span></h1>
+          <p class="hero__description"></p>
+          <button class="main__btn"><a href="docs/документ.docx" download="документ">ссылка</a></button>
+        </div>
+      </div>
+    
+    <!-- About Section -->
+    <div class="main" id="about">
+        <div class="main__container">
+          <div class="main__img--container">
+            <div class="main__img--card">
+              <img src="images/crypto_key.jpg">
+            </div>
+          </div>
+          <div class="main__content">
+            <h1>История развития средств защиты информации</h1>
+            <h2>Век за веком шифрование информации становилось актуальным в различных сферах
+               человеческого бытия: от сферы сакрального до сферы бытового. Развитие криптографии
+               и области ее применения обусловлены развитием коммуникационных средств. Широкая
+               доступность телекоммуникационных средств изменила ценность информации, делая ее
+               сверхценной, одновременно повышая значимость криптографических решений. 
+               Криптографические системы применяются повсюду и миллиардами людей пользуются ими
+               по всему миру ежедневно.</h2>
+            <p>Цель данной работы: рассмотреть историю развития криптографических методов защиты
+              информации и повлиявшие на этот процесс факторы.</p>
+          </div>
+        </div>
+      </div>
+    
+      <!--- Timeline -->
+    <div class="timeline" id="timeline">
+        <h1>Хронология</h1>
+        <div class="timeline__wrapper">
+            <div class="timeline__card">
+                <h2>1 Этап: 1900 - 1950 </h2>
+                <p></p>
+                <div class="timeline__btn"><a href="timeline1.html"><button>ссылка</button></div></a>
+            </div>
+            <div class="timeline__card">
+                <h2>1 Этап: 1950e - 2000e</h2>
+                <p></p>
+                <div class="timeline__btn"><a href="timeline2.html"><button>ссылка</button></div></a>
+            </div>
+        </div>
+      </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
